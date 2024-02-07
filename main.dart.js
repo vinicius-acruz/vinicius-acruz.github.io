@@ -65507,7 +65507,7 @@ r=A.w2(a0,0.85)
 r=A.c5(new A.m8(A.w2(a0,0.9),B.aY,e),r,e)
 d=A.aZ(a0,e,d).w
 q=c>b?B.ff:B.t
-p=A.c5(e,A.dN(a0,50),e)
+p=A.c5(e,A.dN(a0,80),e)
 o=f.d
 n=f.e
 m=f.f
@@ -65707,12 +65707,12 @@ q.aC()
 s=A.bQ(p,B.au,p,p,q)
 q.d=s
 r=t.Y
-q.e=new A.am(A.cn(B.am,s,p),new A.al(700,0,r),r.h("am<af.T>"))},
+q.e=new A.am(A.cn(B.am,s,p),new A.al(500,0,r),r.h("am<af.T>"))},
 m(){var s=this.d
 s===$&&A.b()
 s.m()
 this.PD()},
-J(a){var s,r,q,p,o=A.fm(a,700,500,700),n=A.fm(a,750,600,650),m=this.a.d,l=B.c.fC(A.aZ(a,null,t.w).w.a.a/(o+20))
+J(a){var s,r,q,p,o=A.fm(a,500,500,450),n=A.fm(a,750,600,680),m=this.a.d,l=B.c.fC(A.aZ(a,null,t.w).w.a.a/(o+20))
 if(l===0)l=1
 s=B.e.ff(m,l)
 A.eV("projects per line: "+l+", line index: "+s)
@@ -65730,7 +65730,7 @@ s.toString
 s=A.bo(o.b,p,p,p,p,p,p,p,A.bp(B.T,A.fm(s,20,16,18),B.i),B.bF,p,p)
 o=q.a.c
 r=t.p
-return A.f4(A.cu(A.a([new A.dM(B.jz,n,p),B.IJ,new A.dM(B.A6,s,p),A.f4(A.dn(A.a([A.f4(A.c5(new A.CE(o.r,o.w,p),40,p),1)],r),B.ff,B.G,B.Q),1)],r),B.t,B.a7),1)}}
+return A.f4(A.cu(A.a([new A.dM(B.jz,n,p),B.IJ,new A.dM(B.A6,s,p),A.f4(A.dn(A.a([A.f4(A.c5(new A.CE(o.r,o.w,p),40,p),1)],r),B.ff,B.G,B.Q),1)],r),B.t,B.a7),2)}}
 A.a7Y.prototype={
 $2(a,b){if(b.a>=this.a)return!0
 else return!1},
@@ -65760,7 +65760,7 @@ l=A.ml(s.d,B.E,B.bO,0.5)
 k=B.e.bU(s.e,2)===1?1:-1
 s=m.e
 p=s.a
-q=A.cu(A.a([A.f4(A.dn(A.a([r,B.aR,A.f4(A.eL(B.E,A.a([new A.dM(B.cz,l,o),new A.e8(new A.cj(k,1),o,o,A.bv(o,o,B.l,B.al,o,o,o,o,o,o,o,o,s.b.N(0,p.gl(p))),o)],q),B.L,B.aj),1)],q),B.t,B.a7,B.Q),2),m.xb()],q),B.t,B.G)
+q=A.cu(A.a([A.f4(A.dn(A.a([r,B.aR,A.f4(A.eL(B.E,A.a([new A.dM(B.cz,l,o),new A.e8(new A.cj(k,1),o,o,A.bv(o,o,B.l,B.al,o,o,o,o,o,o,o,o,s.b.N(0,p.gl(p))),o)],q),B.L,B.aj),1)],q),B.t,B.a7,B.Q),3),m.xb()],q),B.t,B.G)
 m=q}else if(k===B.uk){k=A.ml(l.c,B.E,o,o)
 l=B.e.bU(l.e,2)===1?1:-1
 s=m.e
@@ -65773,14 +65773,14 @@ l=A.ml(s.d,B.E,B.bO,0.5)
 k=B.e.bU(s.e,2)===1?1:-1
 s=m.e
 p=s.a
-q=A.cu(A.a([A.f4(A.cu(A.a([r,B.aR,A.f4(A.eL(B.E,A.a([new A.dM(B.cz,l,o),new A.e8(new A.cj(k,1),o,o,A.bv(o,o,B.l,B.al,o,o,o,o,o,o,o,o,s.b.N(0,p.gl(p))),o)],q),B.L,B.aj),1)],q),B.t,B.a7),2),m.xb()],q),B.t,B.G)
+q=A.cu(A.a([A.f4(A.cu(A.a([r,B.aR,A.f4(A.eL(B.E,A.a([new A.dM(B.cz,l,o),new A.e8(new A.cj(k,1),o,o,A.bv(o,o,B.l,B.al,o,o,o,o,o,o,o,o,s.b.N(0,p.gl(p))),o)],q),B.L,B.aj),1)],q),B.t,B.a7),3),m.xb()],q),B.t,B.G)
 m=q}else{k=A.ml(l.d,B.E,B.bO,0.4)
 l=B.e.bU(l.e,2)===1?1:-1
 s=m.e
 s===$&&A.b()
 r=s.a
 q=t.p
-q=A.cu(A.a([A.f4(A.eL(B.E,A.a([new A.dM(B.cz,k,o),new A.e8(new A.cj(l,1),o,o,A.bv(o,o,B.l,B.al,o,o,o,o,o,o,o,o,s.b.N(0,r.gl(r))),o)],q),B.L,B.aj),2),m.xb()],q),B.t,B.G)
+q=A.cu(A.a([A.f4(A.eL(B.E,A.a([new A.dM(B.cz,k,o),new A.e8(new A.cj(l,1),o,o,A.bv(o,o,B.l,B.al,o,o,o,o,o,o,o,o,s.b.N(0,r.gl(r))),o)],q),B.L,B.aj),3),m.xb()],q),B.t,B.G)
 m=q}return A.bv(o,m,B.l,o,o,new A.dh(B.al,o,o,n,o,o,B.ab),o,this.b,B.fk,o,o,o,this.c)},
 $S:416}
 A.Ap.prototype={
