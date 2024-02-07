@@ -65458,7 +65458,7 @@ this.ia()}}
 A.Dq.prototype={
 J(a){var s,r,q,p,o,n,m,l,k,j,i=this,h=null,g=t.w,f=A.b_(a,h,g).w.a.b,e=A.b_(a,h,g).w.a.a
 g=A.ek(a,-130)
-s=f*0.75
+s=f*0.7
 g=A.a_9(0,A.cb(new A.n9(s,B.bO,h),f,e),g)
 r=A.ek(a,400)
 r=A.FR(h,A.Hl(B.X,0,A.cb(A.ig("assets/images/listras_mobile.png",B.B,B.bO,h,h),r,h),i.c),h,h,50,h,h,h)
