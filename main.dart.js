@@ -65817,7 +65817,7 @@ A.a8Z.prototype={
 $2(a,b){var s,r,q,p,o,n,m,l,k=this,j=null,i=b.a,h=k.b,g=h-200
 if(i>=g&&i<=h)k.a.e=!1
 i=i>=k.c+50&&i<=g?B.ct:B.du
-h=A.by(j,j,B.l,B.al,j,j,j,50,B.fl,j,j,j,30)
+h=A.by(j,j,B.l,B.al,j,j,j,180,B.fl,j,j,j,30)
 g=k.a
 s=g.e
 r=s?350:180
@@ -65885,7 +65885,7 @@ $S:28}
 A.a94.prototype={
 $2(a,b){var s,r,q,p,o,n,m,l,k,j=null,i=b.a
 i=i>=this.b+200&&i<=this.c-200?B.ct:B.du
-s=A.by(j,j,B.l,B.al,j,j,j,50,B.fl,j,j,j,30)
+s=A.by(j,j,B.l,B.al,j,j,j,280,B.fl,j,j,j,30)
 r=this.a
 q=r.e?480:280
 p=A.eb(20)
