@@ -65816,7 +65816,7 @@ A.a8Z.prototype={
 $2(a,b){var s,r,q,p,o,n,m,l,k,j=this,i=null,h=b.a,g=j.b
 if(h>=g-200&&h<=g)j.a.e=!1
 h=h>=j.c+50?B.ct:B.du
-g=A.by(i,i,B.l,B.al,i,i,i,180,B.fl,i,i,i,30)
+g=A.by(i,i,B.l,B.al,i,i,i,180,B.fl,i,i,i,120)
 s=j.a
 r=s.e
 q=r?350:180
@@ -65882,7 +65882,7 @@ $2(a,b){var s=b.a
 return s>=this.a&&s<=this.b},
 $S:28}
 A.a94.prototype={
-$2(a,b){var s,r=null,q=b.a>=this.b+200?B.ct:B.du,p=A.by(r,r,B.l,B.al,r,r,r,280,B.fl,r,r,r,30),o=this.a,n=o.e?480:280,m=A.eb(20),l=A.a([new A.fC(3,B.bN,A.a1(255,250,185,91),B.fX,5)],t.sq),k=o.e,j=k?480:280,i=o.a.c
+$2(a,b){var s,r=null,q=b.a>=this.b+200?B.ct:B.du,p=A.by(r,r,B.l,B.al,r,r,r,280,B.fl,r,r,r,150),o=this.a,n=o.e?480:280,m=A.eb(20),l=A.a([new A.fC(3,B.bN,A.a1(255,250,185,91),B.fX,5)],t.sq),k=o.e,j=k?480:280,i=o.a.c
 k=k?40:45
 k=A.ig(i.d,B.B,r,k,r)
 i=A.bv(i.a,r,r,r,r,r,r,r,A.bo(B.S,23,B.ah),B.aF,r,r)
